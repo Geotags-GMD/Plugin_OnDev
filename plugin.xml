@@ -1,0 +1,20 @@
+<plugins>
+
+
+    <pyqgis_plugin name="Error List Checker" version="1.1">
+        <version>1.1</version>
+        <description>QP Checker is a QGIS plugin that allows users to streamline layer management by renaming, applying styles, and arranging base layers in a QGIS project. It includes functionality for selecting QML and QGS files, applying QML styles to specific layers, and organizing base layers in a specified order.</description>
+        <about></about>
+        <author_name>Philippine Statistics Authority | GMD</author_name>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage></homepage>
+        <download_url>
+            https://github.com/kentemman-gmd/error_list_checker/releases/download/v1.1/error_list_checker.zip</download_url>
+        <icon>
+            https://raw.githubusercontent.com/kentemman-gmd/gmd-plugins/refs/heads/main/icons/error-list.png</icon>
+        <file_name>error_list_checker.zip</file_name>
+    </pyqgis_plugin>
+    
+
+
+</plugins>
