@@ -4,10 +4,10 @@
     <pyqgis_plugin name="QP Checker" version="0.1">
         <version>0.1</version>
         <description>QP Checker is a QGIS plugin that allows users to streamline layer management by renaming, applying styles, and arranging base layers in a QGIS project. It includes functionality for selecting QML and QGS files, applying QML styles to specific layers, and organizing base layers in a specified order.</description>
-        <about></about>
+        <about>TEST</about>
         <author_name>Philippine Statistics Authority | GMD</author_name>
         <qgis_minimum_version>3.0</qgis_minimum_version>
-        <homepage></homepage>
+        <homepage>https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qp_checker.zip</homepage>
         <download_url>
             https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qp_checker.zip</download_url>
         <icon>
