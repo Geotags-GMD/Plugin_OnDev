@@ -12,7 +12,7 @@
             https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qp_checker.zip</download_url>
         <icon>
             https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/icon/qp_checker.png</icon>
-        <file_name>error_list_checker.zip</file_name>
+        <file_name>qp_checker.zip</file_name>
     </pyqgis_plugin>
     
 
