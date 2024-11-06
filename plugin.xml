@@ -3,18 +3,80 @@
 
     <pyqgis_plugin name="QP Checker" version="0.2.4">
         <version>0.2.4</version>
-        <description>QP Checker is a QGIS plugin that allows users to streamline layer management by renaming, applying styles, and arranging base layers in a QGIS project. It includes functionality for selecting QML and QGS files, applying QML styles to specific layers, and organizing base layers in a specified order.</description>
-        <about>QP Checker is a QGIS plugin that allows users to streamline layer management by renaming, applying styles, and arranging base layers in a QGIS project. It includes functionality for selecting QML and QGS files, applying QML styles to specific layers, and organizing base layers in a specified order.</about>
+        <description>QP Checker is a QGIS plugin that allows users to streamline layer management by
+            renaming, applying styles, and arranging base layers in a QGIS project. It includes
+            functionality for selecting QML and QGS files, applying QML styles to specific layers,
+            and organizing base layers in a specified order.</description>
+        <about>QP Checker is a QGIS plugin that allows users to streamline layer management by
+            renaming, applying styles, and arranging base layers in a QGIS project. It includes
+            functionality for selecting QML and QGS files, applying QML styles to specific layers,
+            and organizing base layers in a specified order.</about>
         <author_name>Philippine Statistics Authority | GMD</author_name>
         <qgis_minimum_version>3.0</qgis_minimum_version>
-        <homepage>https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qp_checker.zip</homepage>
+        <homepage>
+            https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qp_checker.zip</homepage>
         <download_url>
             https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qp_checker.zip</download_url>
         <icon>
             https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/icon/qp_checker.png</icon>
         <file_name>qp_checker.zip</file_name>
     </pyqgis_plugin>
+    <pyqgis_plugin name="Error List Checker" version="1.1">
+        <version>1.1</version>
+        <description>This plugin allows users to validate geospatial data by checking for
+            discrepancies in facility names and sector categories. It generates a detailed error
+            list for review.</description>
+        <about>The Error List Checker plugin provides an intuitive interface for validating
+            attributes within geospatial data layers in QGIS. Users can select layers, specify
+            validation criteria, and generate an error list for facilities that do not meet the
+            required conditions.</about>
+        <author_name>Philippine Statistics Authority | GMD</author_name>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage>https://gmd-plugin.vercel.app/</homepage>
+        <download_url>
+            https://github.com/kentemman-gmd/error_list_checker/releases/download/v1.1/error_list_checker.zip</download_url>
+        <icon>
+            https://raw.githubusercontent.com/kentemman-gmd/gmd-plugins/refs/heads/main/icons/error-list.png</icon>
+        <file_name>error_list_checker.zip</file_name>
+    </pyqgis_plugin>
+    <pyqgis_plugin name="AuQCBMS" version="0.1">
+        <version>0.1</version>
+        <description>AuQCBMS is a QGIS plugin that streamlines mapping tasks with easy styling, filtering by geocode, and organized layer exports.</description>
+        <about>AuQCBMS enables GIS users to apply QML styles, filter layers by geocode, and export selected layers into a structured output folder based on geocode selections.</about>
+        <author_name>Philippine Statistics Authority | GMD</author_name>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage>https://gmd-plugin.vercel.app/</homepage>
+        <download_url>
+            https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/auqcbms.zip</download_url>
+        <icon>
+            https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/icon/auqcbms.png</icon>
+        <file_name>auqcbms.zip</file_name>
+    </pyqgis_plugin>
+    <pyqgis_plugin name="QML Updater" version="0.1">
+        <version>0.1</version>
+        <description>The QML Updater plugin helps QGIS users quickly download and update QML files from a GitHub repository. Select a folder, start the update, and monitor progress with a progress bar. The plugin saves your folder choice for future use, ensuring your QML styles stay current.</description>
+        <about>QML Updater plugin for QGIS lets you easily update QML files from a GitHub repository. Simply select a folder, and the plugin will download the latest QML files, keeping your styles up-to-date. It features a progress bar and error handling for a smooth experience.</about>
+        <author_name>Philippine Statistics Authority | GMD</author_name>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage>https://gmd-plugin.vercel.app/</homepage>
+        <download_url>
+            https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qml_updater.zip</download_url>
+            <icon>
+                https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/icon/auqcbms.png</icon>
+        <file_name>qml_updater.zip</file_name>
+    </pyqgis_plugin>
+    <pyqgis_plugin name="Query Manager" version="1.27">
+        <version>1.27</version>
+        <description>This plugin lets users build, test, and save SQL queries for QGIS layers, improving workflow and data analysis. It allows quick query creation, storage, and reuse.</description>
+        <about>Query Builder and Manager is a QGIS plugin that helps users easily create and manage SQL queries for layers.</about>
+        <author_name>Philippine Statistics Authority | GMD</author_name>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage>https://gmd-plugin.vercel.app/</homepage>
+        <download_url>
+            https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/plugins/qml_updater.zip</download_url>
+            <icon>
+                https://raw.githubusercontent.com/kentemman-gmd/Plugin_OnDev/refs/heads/main/icon/query_builder.png</icon>
+        <file_name>query_builder_dialog.zip</file_name>
+    </pyqgis_plugin>
     
-
-
 </plugins>
