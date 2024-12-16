@@ -79,8 +79,8 @@
         <file_name>query_builder_dialog.zip</file_name>
     </pyqgis_plugin>
 
-     <pyqgis_plugin name="Overlap Processing" version="1.0.0">
-        <version>1.0.0</version>
+     <pyqgis_plugin name="Overlap Processing" version="1.0.1">
+        <version>1.0.1</version>
         <description>To process building points on the overlap areas for the 2024 POPCEN-CBMS</description>
         <about>To process building points on the overlap areas for the 2024 POPCEN-CBMS</about>
         <author_name>Philippine Statistics Authority | GMD</author_name>
